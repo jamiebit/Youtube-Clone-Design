@@ -1,0 +1,112 @@
+
+.stretch{
+    background-color:#008000;
+    color:white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 8px;
+    padding:10px 10px 10px 10px;
+    transition: padding 1s;
+    }
+    
+    .stretch:hover{
+    padding:30px 30px 30px 30px;
+    }
+    
+    .change_color{
+        transition:color .15s;
+    }
+    .change_color:hover{
+    color:brown;
+    }
+    .yt {
+    background-color: rgb(192, 20, 20);
+    width:100px;
+    height: 40px;
+    color:white;
+    border: none;
+    cursor: pointer;
+    margin-right: 8px;
+    }
+    .yt:hover{
+        /*background-color: green;*/
+        opacity: 0.8;
+    }
+    .yt:active{
+        /*background-color: rgb(27, 27, 156);*/
+        opacity:0.5;
+    }
+    .normal{
+        background-color: white;
+        color:blue;
+        border-color: blue;
+        width:70px;
+        height: 40px;
+        cursor:pointer;
+        margin-right:8px;
+        transition: background-color 0.15s, color 1s;
+    }
+    
+    .normal:hover{
+        background-color: blue;
+        color:white;
+    }
+    
+    .normal:active{
+        opacity:0.8;
+    }
+    
+    .normal_padded{
+        background-color: white;
+        color:blue;
+        border-color: blue;
+        cursor:pointer;
+        margin-right:8px;
+        transition: background-color 0.15s, color 1s;
+        padding: 10px 10px 10px 10px;
+    }
+    
+    .normal_padded:hover{
+        background-color: blue;
+        color:white;
+    }
+    
+    .normal_padded:active{
+        opacity:0.8;
+    }
+    
+    /*has a shadow effect*/
+    .twitter{
+        border-radius: 20px;
+        /*width:70px;
+        height: 40px;*/
+        border: none;
+        background-color:darkturquoise;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        transition: box-shadow 0.15s, opacity .15s;
+        margin-right:8px;
+        padding: 10px 15px 10px 15px;
+        
+    }
+    
+    .twitter:hover{
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.253);
+    }
+    
+    .twitter:active{
+        opacity:0.8;
+    }
+    
+    .marg{
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;  
+    
+    }
+    .marg:hover{
+    padding: 10px 20px 10px 20px;
+    margin: 10px 0px 10px 0px;  
+    }
+    

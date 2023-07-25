@@ -1,0 +1,48 @@
+.span-example:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.apple-text{
+    margin-bottom:50px;
+    margin-top:30px;
+    font-size:14px;
+    background-color: rgb(180, 14, 14);
+    color: white;
+    padding: 10px 18px 10px 18px;
+    text-align: center;
+}
+.video-title{
+    font-family:Roboto;
+    font-size: 18px;
+    font-weight:bold;
+    width:280px;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+
+p{
+    margin-top:0;
+    margin-bottom: 0;
+    font-family:Arial;
+}
+
+.underline{
+    font-size:14px;
+    color:rgb(97, 80, 80);
+    width:280px;
+}
+
+.underline1{
+    font-size:14px;
+    color:rgb(97, 80, 80);
+    width:280px;
+    margin-top:20px;
+}
+
+.underline2{
+    font-size:14px;
+    color:rgb(97, 80, 80);
+    width:280px;
+    margin-top:20px;
+}

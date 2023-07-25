@@ -1,0 +1,65 @@
+
+ .thumbnail{
+    width:100%;
+    
+ }
+
+ .video-time{
+   padding-left:4px;
+   padding-right:4px;
+   padding-top:4px;
+   padding-bottom:4px;
+   border-radius:2px;
+   position:absolute;
+   background-color:black;
+   color:white;
+   right: 5px;
+   bottom:8px;
+   font-family:Roboto, Arial;
+   font-size:12px;
+   font-weight:500;
+
+ }
+
+ .video-title{
+    margin-top:0px;
+    font-size:14px;
+    font-weight:500;
+    line-height:20px;
+    margin-bottom:12px;
+    
+ }
+ .video-author, .video-stats{
+    font-size:12px;
+    color:rgb(96, 96, 96);
+ }
+
+/*if you want a property specific to a class you can just create the class again*/
+.video-author{
+    margin-bottom:4px;
+}
+ .channel-picture{
+ }
+ .video-info{
+ }
+ /*pics by default overflow so we need to set a width to it
+ */
+ .profile-picture{
+    width:40px; /*takes up the entire space in the contaainer*/
+    border-radius: 100px;
+ }
+ .thumbnail-row{
+    margin-bottom: 12px;
+    position:relative;
+ }
+
+ .video-info-grid{
+    display:grid;
+    grid-template-columns: 50px 1fr;
+ }
+ .video-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    column-gap:15px;
+    row-gap:14px;
+ }
